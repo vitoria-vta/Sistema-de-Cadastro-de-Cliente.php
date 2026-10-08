@@ -14,7 +14,7 @@ body {
     padding: 20px;
 }
 
-/* Card do Formulário (Compacto) */
+
 .container {
     background: #ffffff;
     padding: 35px 40px;
@@ -25,9 +25,9 @@ body {
     margin: 0 auto;
 }
 
-/* Card da Tabela (Expandido e Centralizado) */
+
 .container.large {
-    max-width: 1000px; /* Aumenta o tamanho da janela */
+    max-width: 1000px; 
     text-align: center;
 }
 
@@ -39,7 +39,7 @@ h2 {
     font-weight: bold;
 }
 
-/* Campos do Formulário */
+
 .form-group {
     margin-bottom: 16px;
     text-align: left;
@@ -71,7 +71,7 @@ input[type="email"]:focus {
     background-color: #e3eeef;
 }
 
-/* Botões */
+
 .btn-submit {
     width: 100%;
     background-color: #007bff;
@@ -108,7 +108,7 @@ input[type="email"]:focus {
     background-color: #0069d9;
 }
 
-/* Tabela de Clientes */
+
 .table-responsive {
     width: 100%;
 }

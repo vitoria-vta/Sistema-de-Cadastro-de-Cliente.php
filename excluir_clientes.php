@@ -7,9 +7,9 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
     $sql = "DELETE FROM clientes WHERE id = $id";
 
     if ($conn->query($sql) === TRUE) {
-        $conn->close(); // Fecha a conexao
+        $conn->close(); 
         header("Location: listar_clientes.php");
-        exit(); // Interrompe a execução
+        exit(); 
     } else {
         echo "Erro ao excluir: " . $conn->error;
     }
